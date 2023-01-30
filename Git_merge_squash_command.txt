@@ -1,0 +1,353 @@
+    1  yum install git -y
+    2  yum install vim -y
+    3  ls
+    4  pwd
+    5  mkdir git_ws
+    6  ls
+    7  cd git_ws/
+    8  git
+    9  ls
+   10  git clone https://github.com/Nishantsingh70/Git_Jan2023_Practice.git
+   11  ls
+   12  cd Git_Jan2023_Practice/
+   13  ls
+   14  git branch
+   15  git checkout dev
+   16  git checkout -b dev
+   17  git branch
+   18  ls
+   19  cat a.txt 
+   20  cat b.
+   21  ls
+   22  cat > c.txt
+   23  cat c.txt 
+   24  git status
+   25  git log
+   26  git reflog
+   27  git log
+   28  git status
+   29  git add c.txt 
+   30  git status
+   31  git commit -m "new push from dev branch" c.txt 
+   32  git remote -v
+   33  git config --global --list
+   34  git config --global --edit
+   35  git commit --amend --reset-author
+   36  git commit -m "new push from dev branch" c.txt 
+   37  git push
+   38  git commit -m "new push from dev branch" c.txt 
+   39  git push
+   40  git config --global user.name "Nisahntsingh70"
+   41  git config --global user.email "nishantsingh9527@gmail.com"
+   42  git config --global --list
+   43  git config --global --edit
+   44  git config --global --list
+   45  git push
+   46  git push --help
+   47  git log --oneline
+   48  git config --global -l
+   49  git push
+   50  git remote set-url origin https://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@github.com/Nishantsingh70/Git_Jan2023_Practice
+   51  git push
+   52  git checkout master
+   53  git branch --set-upstream-to=dev
+   54  git pull
+   55  git pull dev
+   56  git merge dev
+   57  ls
+   58  git checkout dev
+   59  git pull
+   60  ls
+   61  git checkout master
+   62  git merge dev
+   63  ls
+   64  git pull
+   65  ls
+   66  git branch
+   67  git reflog
+   68  git pull --set-upstream-to=origin/master
+   69  git branch  --set-upstream-to=origin/master
+   70  git pull 
+   71  git pull
+   72  git branch 
+   73  git branch  --all
+   74  git branch  --set-upstream-to=remotes/origin/master
+   75  git pull
+   76  git merge dev
+   77  git switch dev
+   78  git branch --all
+   79  git branch
+   80  git pull
+   81  ls
+   82  git branch all
+   83  git branch --all
+   84  git branch
+   85  git switch master
+   86  ls
+   87  git pull
+   88  git log
+   89  git reflog
+   90  git log --oneline
+   91  git branch
+   92  git status
+   93  git restore .
+   94  ls
+   95  git status
+   96  git pull
+   97  git config --global --list
+   98  ls
+   99  git merge dev
+  100  ls
+  101  cat git_command.txt 
+  102  git pull
+  103  git pull --set-upstream-to=master
+  104  git branch --set-upstream-to=master
+  105  git branch --set-upstream-to=origin/master
+  106  git pull
+  107  git config --global --rebase
+  108  git branch --set-upstream-to=origin/master
+  109  git pull
+  110  git reflog
+  111  cd ..
+  112  ls
+  113  git init Git_Jan2023_Practice_2
+  114  git config --global init.defaultBranch "master"
+  115  git config --global --list
+  116  git init Git_Jan2023_Practice_2
+  117  ls
+  118  cd Git_Jan2023_Practice_2
+  119  pwd
+  120  ls
+  121  ls -a
+  122  cat > a.txt
+  123  cat a.txt 
+  124  cat > b.txt
+  125  cat b.txt 
+  126  touch c d test
+  127  ls
+  128  git status
+  129  git add a.txt 
+  130  git status
+  131  cat > a.txt 
+  132  cat a.txt 
+  133  git status
+  134  touch .gitignore
+  135  ls -a
+  136  vim .gitignore 
+  137  cat .gitignore 
+  138  ls
+  139  git status
+  140  git add .
+  141  git status
+  142  git commit -m "first commit" .
+  143  git log
+  144  git status
+  145  git ls-files
+  146  git show
+  147  git show HEAD
+  148  ls
+  149  git ls-files
+  150  git ls-tree
+  151  git ls-tree HEAD
+  152  history
+  153  ls
+  154  git ls-files
+  155  git ls-tree HEAD
+  156  ls
+  157  cat > e.txt
+  158  cat e.txt 
+  159  git status
+  160  ls
+  161  git ls-files
+  162  git ls-tree HEAD
+  163  git status
+  164  git add .
+  165  git status
+  166  git ls-files
+  167  git ls-tree HEAD
+  168  git commit -m "second commit" e.txt 
+  169  git ls-files
+  170  git ls-tree HEAD
+  171  git --version
+  172  git reflog
+  173  git log
+  174  git reset --soft HEAD~1
+  175  git log
+  176  ls
+  177  git ls-files
+  178  git ls-tree HEAD
+  179  git status
+  180  git commit -m "second commit" e.txt 
+  181  git ls-tree HEAD
+  182  git ls-files
+  183  ls
+  184  git log
+  185  git reset HEAD~1
+  186  git log
+  187  git status
+  188  git ls-files
+  189  git add .
+  190  git commit -m "second commit" e.txt 
+  191  git ls-files
+  192  git ls-tree HEAD~1
+  193  git ls-tree HEAD
+  194  git reset --mixed HEAD~1
+  195  git ls-files
+  196  git status
+  197  git add .
+  198  git commit -m "second commit" e.txt 
+  199  git status
+  200  git ls-files
+  201  git ls-tree
+  202  git ls-tree HEAD
+  203  git reset --hard HEAD~1
+  204  git log
+  205  git status
+  206  ls
+  207  history
+  208  ls
+  209  cd git_ws/
+  210  ls
+  211  cd Git_Jan2023_Practice_2/
+  212  ls
+  213  history
+  214  ls
+  215  git logs
+  216  git log
+  217  ls
+  218  cat >> a.txt 
+  219  cat a.txt 
+  220  git status
+  221  git add .
+  222  git commit -m "second commit" a.txt 
+  223  git reflog
+  224  git log
+  225  ls
+  226  cat >> a.txt 
+  227  cat a.txt 
+  228  git status 
+  229  git add .
+  230  git status
+  231  git ls-files
+  232  git ls-tree HEAD
+  233  git commit -m "third commit" a.txt 
+  234  git log
+  235  git reflog
+  236  git reset ebef8721 a.txt
+  237  git status
+  238  git ls-files
+  239  git restore a.txt 
+  240  cat a.txt 
+  241  git log
+  242  git reset HEAD a.txt
+  243  git status
+  244  git restore a.txt 
+  245  cat a.txt 
+  246  history
+  247  ls
+  248  git rm test
+  249  ls
+  250  git ls-files
+  251  git ls-tree HEAD
+  252  git rm -r test
+  253  git rm -h
+  254  git reflog
+  255  git show ce27dc6
+  256  git cat-file ce27dc6
+  257  git cat-files ce27dc6
+  258  git cat-file ce27dc6
+  259  git cat-file -p e27dc6
+  260  git log
+  261  git log ebef8721900b237d1015a2cffc2e9174f958a147
+  262  git cat-file -p  ebef8721900b237d1015a2cffc2e9174f958a147
+  263  git reflog
+  264  git cat-file -p  19d7b71f217d485e828283483faef087682cf050
+  265  ls
+  266  history
+  267  history > git_merge_commit_command.txt
+  268  cat git_merge_commit_command.txt 
+  269  pwd
+  270  cd ..
+  271  cd Git_Jan2023_Practice
+  272  cp /root/git_ws/Git_Jan2023_Practice_2/git_merge_commit_command.txt /root/git_ws/Git_Jan2023_Practice/ 
+  273  ls
+  274  git branch
+  275  git pull
+  276  git switch dev
+  277  ls
+  278  git branch
+  279  git pull
+  280  git status
+  281  git add git_merge_commit_command.txt 
+  282  git status
+  283  git ls-files
+  284  git ls-tree HEAD
+  285  git commit -m "git_merge_restore_commit command" git_merge_commit_command.txt 
+  286  git ls-tree HEAD
+  287  git push
+  288  ls
+  289  git pull
+  290  ls
+  291  git push
+  292  ls
+  293  git push
+  294  git remote set-url origin https://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@github.com/Nishantsingh70/Git_Jan2023_Practice
+  295  git push
+  296  ls
+  297  git remote -v
+  298  git branch
+  299  git switch master
+  300  ls
+  301  git pull
+  302  git config pull.rebase false
+  303  git pull
+  304  ls
+  305  git help
+  306  git fetch
+  307  git branch
+  308  git log
+  309  ls
+  310  cat > z
+  311  cat z
+  312  git add z
+  313  git status
+  314  git commit -m "squash-1" z
+  315  git ls-tree HEAD
+  316  git log
+  317  ls
+  318  cat > y
+  319  cat y
+  320  git status
+  321  git add z
+  322  git status
+  323  git add y
+  324  git status
+  325  git commit -m "squash-2" y
+  326  git log
+  327  cat > x
+  328  cat x
+  329  git status
+  330  git add x
+  331  git status
+  332  git commit -m "squash-3" x
+  333  git log
+  334  git log --oneline
+  335  git reflog
+  336  git log
+  337  git branch
+  338  git switch dev
+  339  git branch
+  340  git status
+  341  git merge master --squash
+  342  git log
+  343  date
+  344  ls
+  345  cat x
+  346  cat y
+  347  cat z
+  348  git log
+  349  git switch master
+  350  git log
+  351  history
+  352  ls
+  353  history > Git_merge_squash_command.txt
