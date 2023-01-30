@@ -401,3 +401,42 @@
   401  history
   402  cat git_command.txt 
   403  history > git_command.txt 
+  404  git add .
+  405  git commit -m "git command" .
+  406  git push
+  407  git switch master
+  408  git merge dev
+  409  ls
+  410  cat git_command.txt 
+  411  git show Head
+  412  !
+  413  git show HEAD
+  414  !
+  415  git log
+  416  git status
+  417  git push
+  418  ls
+  419  cat git_command.txt 
+  420  pwd
+  421  ls
+  422  git config --global --list
+  423  git config --global --edit
+  424  git config --global --list
+  425  git config --global merge.tool "p4merge"
+  426  git config --global --list
+  427  git config --global mergetool.p4merge.path "E:\Git_P4merge\p4merge.exe"
+  428  git config --global --list
+  429  pwd
+  430  git config --global mergetool.p4merge.path "E:/Git_P4merge/p4merge.exe"
+  431  git config --global --list
+  432  git config --global difftool.prompt "false"
+  433  git config --global --list
+  434  git config --global diff.tool "p4merge"
+  435  git config --global --list
+  436  git config --global difftool.p4merge.path "E:/Git_P4merge/p4merge.exe"
+  437  git config --global --list
+  438  git config --global mergetool.prompt "false"
+  439  git config --global --list
+  440  cat 
+  441  ls
+  442  history > git_command.txt 
