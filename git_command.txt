@@ -1,3 +1,65 @@
+    1  pwd
+    2  cd Desktop/
+    3  ls
+    4  pwd
+    5  mkdir keys
+    6  ls
+    7  cd keys/
+    8  ls
+    9  keygen
+   10  ssh keygen
+   11  cd ~/.ssh
+   12  pwd
+   13  ssh --version
+   14  ssh root@192.168.57.210
+   15  ssh root@192.168.57.210
+   16  ping 192.168.57.210
+   17  ping 192.168.57.210
+   18  ssh root@192.168.57.210
+   19  cd Desktop/
+   20  pwd
+   21  ssh root@192.168.57.210
+   22  ssh root@192.168.57.210
+   23  ssh root@192.168.57.104
+   24  ssh root@192.168.57.104
+   25  ssh root@192.168.57.104
+   26  ssh root@192.168.56.103
+   27  history
+   28  ssh root@192.168.57.104
+   29  ls
+   30  pwd
+   31  ssh root@192.168.56.103
+   32  history
+   33  ssh root@192.168.56.103
+   34  ssh root@192.168.57.210
+   35  ssh root@192.168.57.104
+   36  ssh root@192.168.29.128
+   37  ssh root@10.0.2.15
+   38  ssh root@192.168.29.128
+   39  ipconfig
+   40  ssh root@10.0.2.15
+   41  ssh root@192.168.29.241
+   42  ssh root@192.168.29.241
+   43  dir
+   44  cd Downloads/
+   45  ls
+   46  ssh -i "RHCSA_EXAM_VM.pem" ec2-user@ec2-13-235-82-84.ap-south-1.compute.amazonaws.com
+   47  ssh -i "RHCSA_EXAM_VM.pem" ec2-user@ec2-13-235-82-84.ap-south-1.compute.amazonaws.com
+   48  ssh root@10.0.2.15
+   49  cd Downloads/
+   50  dir
+   51  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
+   52  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
+   53  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
+   54  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
+   55  cd Downloads/
+   56  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
+   57  cd download
+   58  cd Downloads/
+   59  ls
+   60  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
+   61  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
+   62  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
    63  cd Desktop/
    64  mkdir Git_WS
    65  dir
@@ -271,3 +333,71 @@
   333  git cat-file -p a19312c
   334  history
   335  history > git_command.txt
+  336  ls
+  337  git status
+  338  git ls-files
+  339  git add .
+  340  git ls-files
+  341  git commit -m "git command" git_command.txt 
+  342  git show
+  343  git log --oneline
+  344  git show ae0b2bc
+  345  cat git_command.txt 
+  346  vim git_command.txt 
+  347  cat git_command.txt 
+  348  git add .
+  349  git commit -m "git commands" .
+  350  git push
+  351  git switch dev
+  352  git set-upstream-to=master
+  353  git branch set-upstream-to=master
+  354  git branch set-upstream-to=master
+  355  git branch -e set-upstream-to=master
+  356  git branch  --unset-upstream
+  357  git branch set-upstream-to=master
+  358  git branch --unset-upstream 
+  359  git branch --set-upstream-to=master
+  360  git pull
+  361  ls
+  362  git remote -v
+  363  cat > testing
+  364  cat testing 
+  365  git status 
+  366  git add .
+  367  git status 
+  368  git commit -m "test" .
+  369  git push
+  370  git push . HEAD:master
+  371  ls
+  372  git switch master
+  373  ls
+  374  git switch dev
+  375  cat > testing
+  376  git add .
+  377  git commit -m "test1" .
+  378  git push
+  379  git push . HEAD
+  380  ls
+  381  git log --online
+  382  git log --oneline
+  383  git push . origin/dev
+  384  git push --set-upstream
+  385  git reflog
+  386  git log
+  387  git branch --set-upstream-to=origin/master
+  388  git branch --set-upstream-to=origin/dev
+  389  git push 
+  390  git cherry-pick a19312c36d053f3a5e876ab40391f17786e0e7db
+  391  git merger tool
+  392  git show
+  393  git show HEAD
+  394  git show HEAD~1
+  395  git log HEAD
+  396  ls
+  397  pwd
+  398  git branch
+  399  git switch dev
+  400  git cherry-pick --quit
+  401  history
+  402  cat git_command.txt 
+  403  history > git_command.txt 
