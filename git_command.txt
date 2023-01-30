@@ -1,0 +1,403 @@
+    1  pwd
+    2  cd Desktop/
+    3  ls
+    4  pwd
+    5  mkdir keys
+    6  ls
+    7  cd keys/
+    8  ls
+    9  keygen
+   10  ssh keygen
+   11  cd ~/.ssh
+   12  pwd
+   13  ssh --version
+   14  ssh root@192.168.57.210
+   15  ssh root@192.168.57.210
+   16  ping 192.168.57.210
+   17  ping 192.168.57.210
+   18  ssh root@192.168.57.210
+   19  cd Desktop/
+   20  pwd
+   21  ssh root@192.168.57.210
+   22  ssh root@192.168.57.210
+   23  ssh root@192.168.57.104
+   24  ssh root@192.168.57.104
+   25  ssh root@192.168.57.104
+   26  ssh root@192.168.56.103
+   27  history
+   28  ssh root@192.168.57.104
+   29  ls
+   30  pwd
+   31  ssh root@192.168.56.103
+   32  history
+   33  ssh root@192.168.56.103
+   34  ssh root@192.168.57.210
+   35  ssh root@192.168.57.104
+   36  ssh root@192.168.29.128
+   37  ssh root@10.0.2.15
+   38  ssh root@192.168.29.128
+   39  ipconfig
+   40  ssh root@10.0.2.15
+   41  ssh root@192.168.29.241
+   42  ssh root@192.168.29.241
+   43  dir
+   44  cd Downloads/
+   45  ls
+   46  ssh -i "RHCSA_EXAM_VM.pem" ec2-user@ec2-13-235-82-84.ap-south-1.compute.amazonaws.com
+   47  ssh -i "RHCSA_EXAM_VM.pem" ec2-user@ec2-13-235-82-84.ap-south-1.compute.amazonaws.com
+   48  ssh root@10.0.2.15
+   49  cd Downloads/
+   50  dir
+   51  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
+   52  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
+   53  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
+   54  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
+   55  cd Downloads/
+   56  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
+   57  cd download
+   58  cd Downloads/
+   59  ls
+   60  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
+   61  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
+   62  ssh -i "Redhat_linux.pem" ec2-user@ec2-13-233-103-43.ap-south-1.compute.amazonaws.com
+   63  cd Desktop/
+   64  mkdir Git_WS
+   65  dir
+   66  cd Git_WS/
+   67  ls
+   68  git --help
+   69  git remote --help
+   70  git help -g
+   71  git namespaces
+   72  git help -a
+   73  git help -a
+   74  git help -g
+   75  git --help
+   76  git ls-files
+   77  git log
+   78  git logs
+   79  git log
+   80  pwd
+   81  mkdir git_Jan2023_Practice
+   82  cd git_Jan2023_Practice/
+   83  ls
+   84  pwd
+   85  git init
+   86  ls
+   87  ls -a
+   88  git log
+   89  cat > linux.html
+   90  cat linux.html 
+   91  ls
+   92  git status
+   93  git log
+   94  git config 
+   95  git config  --global
+   96  git remote -v
+   97  git config  --global user.email "nishantsingh9527@gmail.com" user.name "Nishantsingh70" 
+   98  git config  --global user.email "nishantsingh9527@gmail.com" user.name "Nishantsingh70" 
+   99  git config --global --list
+  100  ls -a
+  101  git remote help
+  102  git remote add mynishant https://github.com/Nishantsingh70
+  103  git remote -v
+  104  git config --global --list
+  105  git config --global--list
+  106  git config  --list
+  107  git log
+  108  git status 
+  109  git add linux.html 
+  110  git status 
+  111  git commit 
+  112  git config  --global user.email "nishantsingh9527@gmail.com" 
+  113  git config  --global user.email "user.name "Nishantsingh70" 
+  114  git config  --global user.email user.name "Nishantsingh70" 
+  115  git config  --global  user.name "Nishantsingh70" 
+  116  git config  --global user.email "nishantsingh9527@gmail.com" 
+  117  git commit
+  118  git config --global --list
+  119  git commit help
+  120  git commit --help
+  121  git commit -m "first commit" linux.html 
+  122  git log
+  123  git remote -v
+  124  git push
+  125  git push --set-upstream mynishant master
+  126  git remote add origin https://github.com/Nishantsingh70/Git_Jan2023_Practice.git
+  127  git push --set-upstream mynishant master
+  128  git remote -v
+  129  git remote --help
+  130  git remote remove mynishant
+  131  git remote -v
+  132  git push --set-upstream origin master
+  133  git log
+  134  git checkout -b dev
+  135  git log
+  136  ls -a
+  137  cat > testdev.html
+  138  cat testdev.html 
+  139  ls
+  140  git status
+  141  git log
+  142  git add .
+  143  git commit -m "commit from dev" .
+  144  git log
+  145  git push
+  146  git push --set-upstream origin dev
+  147  git log
+  148  git diff
+  149  git diff 2d34e188a3b73cdbf948c9f681b3edc1fb135bc0  95851b21012847618bd79780974060918c04fadd
+  150  cat >> testdev.html 
+  151  cat testdev.html 
+  152  git status
+  153  git add .
+  154  git status
+  155  git commit "second commit from dev branch" .
+  156  git commit -m "second commit from dev branch" .
+  157  git push 
+  158  git log
+  159  git diff a19312c36d053f3a5e876ab40391f17786e0e7db  2d34e188a3b73cdbf948c9f681b3edc1fb135bc0
+  160  git fetch
+  161  ls
+  162  git fetch
+  163  ls
+  164  ls -a
+  165  git log
+  166  git ls-remote
+  167  ls
+  168  cat >> testdev.html 
+  169  cat testdev.html 
+  170  git status
+  171  git add .
+  172  git commit -m "third commit by dev branch" .
+  173  git log
+  174  git push
+  175  git pudh --help
+  176  git push --help
+  177  git fetch
+  178  git branch -a
+  179  git branch
+  180  git pull origin dev
+  181  ls
+  182  cat testdev.html 
+  183  git fetch --all
+  184  git fetch --all
+  185  git log
+  186  git status
+  187  git push 
+  188  git fetch 
+  189  git fetch --all
+  190  git pull origin dev
+  191  car README.md 
+  192  cat README.md 
+  193  ls
+  194  git push 
+  195  git log
+  196  ls
+  197  git reset  adf6426f0a8e4977a1a9fe137d51aafe387e9c7b  testdev.html
+  198  cat testdev.html 
+  199  git log
+  200  git reset a19312c36d053f3a5e876ab40391f17786e0e7db  testdev.html
+  201  git log
+  202  cat testdev.html 
+  203  git log
+  204  qqq
+  205  qqq
+  206  git log
+  207  git status
+  208  git commit -m "reset commit" testdev.html testdev.html 
+  209  git commit -m "reset commit" testdev.html
+  210  git status
+  211  git add .
+  212  git commit -m "reset commit" testdev.html
+  213  git status
+  214  git push
+  215  cat testdev.html 
+  216  git log
+  217  git --help
+  218  git reset eset current HEAD to the specified state testdev.html
+  219  git log
+  220  git reset 2d34e188a3b73cdbf948c9f681b3edc1fb135bc0 testdev.html
+  221  git status
+  222  git restore testdev.html 
+  223  cat testdev.html 
+  224  git commit -m "reset commit by dev" testdev.html 
+  225  git push
+  226  git log
+  227  git reset 09610fc6cdf0135cdd749203b8cee0464b0e7f12 testdev.html
+  228  git status
+  229  git restore testdev.html 
+  230  git commit "reset done by dev branch" testdev.html 
+  231  git commit -m "reset done by dev branch" testdev.html 
+  232  git push
+  233  git log
+  234  git reflog
+  235  git checkout main
+  236  git checkout -- main
+  237  git branch
+  238  git checkout master
+  239  git reflog
+  240  git log
+  241  git checkout dev
+  242  git branch
+  243  git branch --show-current
+  244  git log --online
+  245  git merge dev
+  246  git merge master
+  247  git checkout master
+  248  ls
+  249  git merge dev
+  250  ls
+  251  git log
+  252  git reflog
+  253  git status
+  254  git push
+  255  git ls-files
+  256  git show
+  257  git status
+  258  cat > a.txt
+  259  cat a.txt 
+  260  ls
+  261  git status
+  262  git add a.txt 
+  263  git status
+  264  git commit -m "test" .
+  265  git status
+  266  git reflog
+  267  git checkout dev
+  268  git merge master
+  269  ls
+  270  git push
+  271  git show
+  272  ls
+  273  cat > b.txt
+  274  cat b.txt 
+  275  ls
+  276  git status
+  277  log add b.txt 
+  278  git add b.txt 
+  279  git status
+  280  git commit -m "test-1" b.txt 
+  281  git show
+  282  git reflog
+  283  git checkout master
+  284  git branch
+  285  git branch --help
+  286  git config --global --list
+  287  git config --global --edit
+  288  git config --global --list
+  289  git remote -v
+  290  git fetch
+  291  ls
+  292  git pull
+  293  ls
+  294  git pull
+  295  git reflog
+  296  git pull
+  297  ls
+  298  git ls-file
+  299  git ls-files
+  300  git cat-files
+  301  git cat-file
+  302* git reflog 
+  303  git cat-file -p a19312c
+  304  git tree
+  305  git mktree
+  306  git cat-file
+  307  git status -v
+  308  git checkout .
+  309  git switch dev
+  310  git pull
+  311  ls
+  312  ls
+  313  ls -a
+  314  cd .git/
+  315  ls
+  316  cd hooks/
+  317  ls
+  318  pwd
+  319  cd ../..
+  320  ls
+  321  pwd
+  322  git branch set-upstream-to=master
+  323  git pull
+  324  ls
+  325  git switch master
+  326  git pull
+  327  git branch set-upstream-to=dev
+  328  git pull
+  329  git merge dev
+  330  ls
+  331  git ls-files
+  332  git log --oneline
+  333  git cat-file -p a19312c
+  334  history
+  335  history > git_command.txt
+  336  ls
+  337  git status
+  338  git ls-files
+  339  git add .
+  340  git ls-files
+  341  git commit -m "git command" git_command.txt 
+  342  git show
+  343  git log --oneline
+  344  git show ae0b2bc
+  345  cat git_command.txt 
+  346  vim git_command.txt 
+  347  cat git_command.txt 
+  348  git add .
+  349  git commit -m "git commands" .
+  350  git push
+  351  git switch dev
+  352  git set-upstream-to=master
+  353  git branch set-upstream-to=master
+  354  git branch set-upstream-to=master
+  355  git branch -e set-upstream-to=master
+  356  git branch  --unset-upstream
+  357  git branch set-upstream-to=master
+  358  git branch --unset-upstream 
+  359  git branch --set-upstream-to=master
+  360  git pull
+  361  ls
+  362  git remote -v
+  363  cat > testing
+  364  cat testing 
+  365  git status 
+  366  git add .
+  367  git status 
+  368  git commit -m "test" .
+  369  git push
+  370  git push . HEAD:master
+  371  ls
+  372  git switch master
+  373  ls
+  374  git switch dev
+  375  cat > testing
+  376  git add .
+  377  git commit -m "test1" .
+  378  git push
+  379  git push . HEAD
+  380  ls
+  381  git log --online
+  382  git log --oneline
+  383  git push . origin/dev
+  384  git push --set-upstream
+  385  git reflog
+  386  git log
+  387  git branch --set-upstream-to=origin/master
+  388  git branch --set-upstream-to=origin/dev
+  389  git push 
+  390  git cherry-pick a19312c36d053f3a5e876ab40391f17786e0e7db
+  391  git merger tool
+  392  git show
+  393  git show HEAD
+  394  git show HEAD~1
+  395  git log HEAD
+  396  ls
+  397  pwd
+  398  git branch
+  399  git switch dev
+  400  git cherry-pick --quit
+  401  history
+  402  cat git_command.txt 
+  403  history > git_command.txt 
