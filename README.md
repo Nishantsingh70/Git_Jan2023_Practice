@@ -11,5 +11,5 @@
 # git reflog --help
 # git gc --help
 # git reflog HEAD@{3}
-# git reflog HEAD@{2.dsys.ago}
+# git reflog HEAD@{2.days.ago}
 # git reflog HEAD@{25.minutes.ago}
